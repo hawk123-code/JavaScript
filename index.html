@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	<script src = "js/gallery.js"></script>
+</head>
+<body onload="tabfocus()">
+	
+	<div id = "image">
+		Hover over an image below to display here.
+	</div>
+	
+	<img class = "preview" alt = "Babar Azam posing" src = "images/babar.png" onmouseover = "upDate(this)" onmouseout = "unDo(this)" onfocus="onFocus(this)" onblur="onBlur(this)">
+	
+	<img class = "preview" alt = "Surya Kumar posing" src = "images/surya.jpg" onmouseover = "upDate(this)" onmouseout = "unDo(this)" onfocus="onFocus(this)" onblur="onBlur(this)">
+	
+	<img class = "preview" src = "images/root.jpg" alt = "Joe Root posing" onmouseover = "upDate(this)" onmouseout = "unDo(this)" onfocus="onFocus(this)" onblur="onBlur(this)">
+
+	<img class = "preview" src = "images/virat.jpg" alt = "Virat Kohli posing" onmouseover = "upDate(this)" onmouseout = "unDo(this)" onfocus="onFocus(this)" onblur="onBlur(this)">
+	
+    <img class = "preview" src = "images/smith.jpeg" alt = "Steve Smith posing" onmouseover = "upDate(this)" onmouseout = "unDo(this)" onfocus="onFocus(this)" onblur="onBlur(this)">
+	
+    <img class = "preview" src = "images/maxwell.jpg" alt = "Maxwell posing" onmouseover = "upDate(this)" onmouseout = "unDo(this)" onfocus="onFocus(this)" onblur="onBlur(this)">
+
+</body>
+</html>
